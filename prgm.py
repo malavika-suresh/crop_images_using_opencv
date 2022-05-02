@@ -1,7 +1,7 @@
 import cv2
 
 #reading image
-image = cv2.imread(r"4.jpg")
+image = cv2.imread(r"img.jpg")
 
 #converting to gray scale
 gray=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
